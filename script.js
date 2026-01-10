@@ -13,7 +13,7 @@ function draw()
         return;
     }
 
-    if (quantity.value == 0)
+    if (quantity.value <= 0)
     {
         winners.textContent = "There are no prizes";
         winners.style.display = "block";

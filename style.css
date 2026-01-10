@@ -10,6 +10,18 @@ body
     height: 100vh;
     margin: 0;
     padding: 0;
+    animation: pageOpen 1.2s ease-out;
+}
+
+@keyframes pageOpen {
+    from {
+        opacity: 1;
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
 }
 
 .container
@@ -58,11 +70,6 @@ textarea
     resize: none;
 }
 
-textarea:focus::placeholder
-{
-    color: transparent;
-}
-
 input
 {
     font-family: monospace;
@@ -73,11 +80,6 @@ input
     border-radius: 5px;
     text-align: center;
     border: 0.8px solid rgb(118, 118, 118);
-}
-
-input:focus::placeholder
-{
-    color: transparent;
 }
 
 #winners
