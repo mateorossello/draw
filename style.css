@@ -70,6 +70,11 @@ textarea
     resize: none;
 }
 
+textarea:hover
+{
+    cursor: default;
+}
+
 input
 {
     font-family: monospace;
@@ -80,6 +85,11 @@ input
     border-radius: 5px;
     text-align: center;
     border: 0.8px solid rgb(118, 118, 118);
+}
+
+input:hover
+{
+    cursor: default;
 }
 
 #winners
