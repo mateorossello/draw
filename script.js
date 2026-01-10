@@ -47,7 +47,7 @@ function draw() {
         winners.textContent = `The winner is ${selected[0]}`;
     } else {
         const lastWinner = selected.pop();
-        winners.textContent = `The winners are: ${selected.join(", ")} and ${lastWinner}`;
+        winners.textContent = `The winners are ${selected.join(", ")} and ${lastWinner}`;
     }
 
     winners.style.display = "block";
