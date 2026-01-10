@@ -7,9 +7,10 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div id="toast-container"></div>
         <div class="container">
             <textarea id="names" placeholder="Write the names one per line"></textarea>
-            <input type="number" id="quantity" min="1" placeholder="Enter a number of winners"></input>
+            <input type="text" id="quantity" placeholder="Enter a number of winners" inputmode="numeric" oninput="fixQuantity(this)"></input>
             <button onclick="draw()">Draw</button>
             <div id="winners"></div>
         </div>
