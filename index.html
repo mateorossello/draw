@@ -1,22 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Draw - Random winner picker</title>
-        <link rel="icon" href="https://img.icons8.com/?size=100&id=108789&format=png&color=000000" type="image/png">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="toast-container"></div>
-        <div class="container">
-            <textarea id="names" placeholder="Write the names one per line"></textarea>
-            <input type="text" id="quantity" placeholder="Enter a number of winners" inputmode="numeric" oninput="fixQuantity(this)"></input>
-            <button onclick="draw()">Draw</button>
-            <div id="winners"></div>
-        </div>
-        <footer>
-            Icons by <a href="https://icons8.com/icons" target="_blank">Icons8</a>
-        </footer>
-        <script src="script.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Draw - Random winner picker</title>
+    <link
+      rel="icon"
+      href="https://img.icons8.com/?size=100&id=108789&format=png&color=000000"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="toast-container"></div>
+    <div class="container">
+      <textarea
+        id="names"
+        placeholder="Write the names one per line"
+        aria-label="Participants"
+      ></textarea>
+      <input
+        type="text"
+        placeholder="Enter a number of winners"
+        inputmode="numeric"
+        id="quantity"
+        aria-label="Number of winners"
+      />
+      <div class="button-group">
+        <button id="btn-draw" class="btn-draw" aria-label="Draw">Draw</button>
+        <button id="btn-clear" class="btn-clear" aria-label="Clear">
+          Clear
+        </button>
+      </div>
+      <div id="winners"></div>
+    </div>
+    <footer>
+      Icons by <a href="https://icons8.com/icons" target="_blank">Icons8</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
