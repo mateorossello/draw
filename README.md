@@ -1,13 +1,13 @@
 # Draw
 
-Practice project - Random winner picker
+Practice project - Random Winner Picker
 
 ---
 
 ## Features
 
--   Perform a draw from a list of names.
--   Prevents errors by validating user inputs.
+- Perform a draw from a list of names.
+- Prevents errors by validating user inputs.
 
 ---
 
@@ -20,9 +20,9 @@ Alternatively, you can access the live version deployed on **GitHub Pages**.
 
 ## Technologies used
 
--   **Language:** JavaScript
--   **Styling:** CSS
--   **Markup:** HTML
--   **Version control:** Git
+- **Language:** JavaScript
+- **Styling:** CSS
+- **Markup:** HTML
+- **Version control:** Git
 
 ---

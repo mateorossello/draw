@@ -76,7 +76,7 @@ textarea {
 }
 
 textarea:hover {
-  cursor: default;
+  cursor: text;
 }
 
 input {
@@ -90,7 +90,7 @@ input {
 }
 
 input:hover {
-  cursor: default;
+  cursor: text;
 }
 
 #winners {
