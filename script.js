@@ -73,6 +73,7 @@ function draw() {
 
 function clearAll() {
   document.getElementById("names").value = "";
+  document.getElementById("participant-count").textContent = "Participants: 0";
   document.getElementById("quantity").value = "";
   document.getElementById("winners").style.display = "none";
 }
