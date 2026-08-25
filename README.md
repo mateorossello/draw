@@ -1,6 +1,6 @@
 # Draw
 
-Practice project - Random Winner Picker
+Practice Project - Random Winner Picker
 
 ---
 
